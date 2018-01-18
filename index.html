@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Strona testowa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Page Header-->
+
+    <nav class="navbar  navbar-fixed-top navbar-inverse  " role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-xs " href="#">Travel Agency</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right  " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="text-center">
+                        <a href="#">
+                            <i class="fa fa-phone" aria-hidden="true"></i>+48 530 203 290</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>Salyjan@wp.pl</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right text-center">
+                    <a href="">
+                        <button class="btn  main-btn">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>BOOK NOW</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Jumbotron-->
+    <div class="jumbotron ">
+        <div class="container-fluid">
+            <header>
+                <h1 class="text-header-jumbotron animated slideInDown">Experience The
+                    <br> Best Trip Ever</h1>
+            </header>
+            <p class=" animated slideInLeft">We are committed to offering travel services of the highest quality, combining our energy and enthusiasm with
+                <br> years of experience.</p>
+            <button class="btn   btn-lg main-btn animated zoomIn hvr-pulse">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>BOOK A TOUR </button>
+        </div>
+    </div>
+    <!--Featured Tours-->
+    <section class="top-offers">
+        <!--Featured Tours header-->
+        <header>
+            <h2 class="text-center text-header" data-aos="zoom-in">Featured Tours</h2>
+        </header>
+        <!--Featured Tours text slogan-->
+        <p class="text-center text-bottom">Explore the world with Intense! We offer you a vast variety of tours of all types featuring both exotic and</p>
+        <p class="text-center text-bottom">already well-known destinations, some of which are listed below.</p>
+        <!--Featured Tours offers-->
+        <div class="offers">
+            <div class="container">
+                <div class="row">
+                    <!--Featured Tours offers box-->
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-aos="flip-left">
+                        <figure>
+                            <span class="span span-sale ">Sale</span>
+                            <img class="img-responsive  center-block main-img " data-toggle="modal" data-target="#a" src="img/beach-1556580_1920.jpg">
+                            <!--Featured Tours offers icins stars-->
+                            <figcaption>
+                                <ul class="list-inline text-center">
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <h3 class="text-center header-bottom-offers">Kamalame Cay Resort</h3>
+                                <!--Featured Tours offers text price-->
+                                <p class="text-center small">Kamalame Cay, The Bahamas</p>
+                                <p class="text-bold text-darker text-center">$1000</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Featured Tours offers text modal-->
+                    <div id="a" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content ">
+                                <div class="modal-header text-center ">
+                                    <h2 class="text-center">Kamalame Cay, The Bahamas</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam
+                                        in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae
+                                        porro, dolore explicabo nisi atque nesciunt.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Tours offers box-->
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-aos="flip-left">
+
+                        <figure>
+                            <span class="span span-new">New</span>
+                            <img class="img-responsive  center-block main-img " data-toggle="modal" data-target="#b" src="img/laguna-2237604_1280.jpg">
+                            <!--Featured Tours offers icins stars-->
+                            <figcaption>
+                                <ul class="list-inline text-center">
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+
+                                </ul>
+                                <h3 class="text-center header-bottom-offers">Explora Atacama</h3>
+                                <!--Featured Tours offers text price-->
+                                <p class="text-center small">Atacama Desert, Chile</p>
+                                <p class="text-bold text-darker text-center">$1250</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Featured Tours offers text modal-->
+                    <div id="b" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content ">
+                                <div class="modal-header  text-center">
+                                    <h2 class="text-center">Atacama Desert, Chile</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam
+                                        in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae
+                                        porro, dolore explicabo nisi atque nesciunt.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Tours offers box-->
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-aos="flip-left">
+                        <!--Featured Tours offers text modal-->
+                        <figure>
+                            <img class="img-responsive  center-block main-img " data-toggle="modal" data-target="#c" src="img/mirror-lake-1884282_1280.jpg" alt="Jezioro">
+                            <!--Featured Tours offers icins stars-->
+                            <figcaption>
+                                <ul class="list-inline text-center">
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <h3 class="text-center header-bottom-offers">Yosemite National Park</h3>
+                                <!--Featured Tours offers text price-->
+                                <p class="text-center small">Yosemite, CA, USA</p>
+                                <p class="text-bold text-darker text-center">$3120</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Featured Tours offers text modal-->
+                    <div id="c" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content ">
+                                <div class="modal-header text-center ">
+                                    <h2 class="text-center">Yosemite, CA, USA</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam
+                                        in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae
+                                        porro, dolore explicabo nisi atque nesciunt.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Tours offers box-->
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-aos="flip-left">
+                        <figure>
+                            <img class="img-responsive  center-block main-img header-bottom-offers" data-toggle="modal" data-target="#d" src="img/villeneuve-2613695_1280.jpg">
+                            <!--Featured Tours offers icins stars-->
+                            <figcaption>
+                                <ul class="list-inline text-center">
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                    <li class="icon ">
+                                        <i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <h3 class="text-center header-bottom-offers">Château d'Ouchy</h3>
+                                <!--Featured Tours offers text price-->
+                                <p class="text-center small">Lausanne, Switzerland</p>
+                                <p class="text-bold text-darker text-center">$800</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Featured Tours offers text modal-->
+                    <div id="d" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content ">
+                                <div class="modal-header text-center ">
+                                    <h2 class="text-center">Lausanne, Switzerland</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam
+                                        in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae
+                                        porro, dolore explicabo nisi atque nesciunt.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--We Provide Only the Best Tours-->
+    <section class="slogan text-center">
+        <div class="container-fluid">
+            <!--We Provide Only the Best Tours header-->
+            <header>
+                <h3 class="text-header-slogan">We Provide Only the Best Tours</h3>
+            </header>
+            <!--            We Provide Only the Best Tours header text-->
+
+            <p class="slogan-text">With more than 230 trips to worldwide destinations, including Europe, North & Central, South America, Asia,
+                <br> Australia & New Zealand, we continue to offer new ways and the best tours for traveling every year.</p>
+            <a class="btnn btn-rounded btn-border-white hvr-rectangle-out ">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>Get in touch</a>
+        </div>
+
+    </section>
+
+    <!--Why Us?-->
+
+    <section class="service">
+        <!--        Why Us? header-->
+        <header>
+            <h3 class="text-center text-header-service" data-aos="zoom-in">Why Us?</h3>
+        </header>
+
+        <!--Why Us? box-->
+
+        <div class="container text-center">
+            <div class="row">
+
+                <!--Why Us? box icons-->
+
+
+                <div class="col-md-4  col-xs-12">
+                    <span class=" span-service glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                    <p class="text-center text-service text-bottom">Our aim is to provide you with the tour service of the top quality, and we'll do our best to find the
+                        suitable tour for you.</p>
+                </div>
+                <div class="col-md-4  col-xs-12">
+                    <span class="span-service glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+                    <p class="text-center text-service text-bottom">There are dozens of aspects to pay attention to, while organizing a trip, and we’ll make sure your tour
+                        includes everything you need.</p>
+                </div>
+                <div class="col-md-4  col-xs-12">
+                    <span class="span-service glyphicon glyphicon-tent" aria-hidden="true"></span>
+                    <p class="text-center text-service text-bottom">All our tours and excursions are available at really affordable prices so you can always pick a great
+                        destination.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--    Our Partners-->
+    <section class="partners">
+        <header>
+            <h4 class="text-center text-header-partners">Our Partners</h4>
+        </header>
+        <div class="container text-center ">
+            <div class="row  ">
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/alexia.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/sunitravel.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/ecco.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/juventur.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/soho.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  col-xs-12">
+                    <figure>
+                        <img class="partners-img" src="img/snow.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    What Our Clients Say-->
+
+    <section>
+        <header>
+            <h4 class="text-center header-text-clients" data-aos="zoom-in">What Our Clients Say</h4>
+        </header>
+        <div class="container-fluid  ">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
+                        <figure>
+                            <img class=" img-responsive img-circle img-user" src="img/user-lisa-evans.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="  text-clients">Disney in December was absolutely delightful! From our 1 day at Magic Kingdom & 2 days at Animal
+                            Kingdom, our family was filled with excitement and magical memories.</p>
+                        <p class="clients-name">Lisa Evans</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
+                        <figure>
+                            <img class="img-responsive img-circle img-user" src="img/user-nicholas-lane.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-8 ">
+                        <p class=" text-clients">You were an excellent Travel Agency for us! You considered our unique needs while planning our itinerary.
+                            Every suggestion you made was excellent!</p>
+                        <p class="clients-name">Nicholas Lane</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4">
+                        <figure>
+                            <img class="img-responsive img-circle img-user" src="img/user-ethan-dean.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="  text-clients">I’m sending you a sincere "thank you" for all of your assistance during my recent trip to Colorado.
+                            It was invaluable to me and I realize and appreciate it greatly.</p>
+                        <p class="clients-name">Ethan Dean</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" offset-bootom text-center">
+            <a class="btn btn-lg main-btn animated" href="#">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>Get in touch</a>
+        </div>
+    </section>
+    <!--Explore the Distant Corners of the World-->
+    <section class="slogan slogan-bootom text-center">
+        <div class="container-fluid">
+            <!--Explore the Distant Corners of the World header-->
+            <header>
+                <h4 class="header-text-slogan-bootom">Explore the Distant Corners of the World</h4>
+            </header>
+            <p class="slogan-text">For over 30 years we have been creating inspirational tailor-made holidays and are proud of our reputation as
+                one of the leading tour operators. With us you can reach even the most distant corners of the world!</p>
+            <a class="btnn btn-rounded btn-border-white hvr-rectangle-out ">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>Get in touch</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  col-xs-12 text-center">
+                    <a class="footer-link" href="">Travel Agency</a>
+                </div>
+                <div class="col-md-4  col-xs-12">
+                    <p class="text-center "> &copy; Wykonanie:P.Sałyjan</p>
+                </div>
+                <div class="col-md-4  col-xs-12 text-center">
+
+                    <a href="">
+                        <button class="icon-btn twitter">
+                            <i class="fa fa-twitter"></i>
+                        </button>
+                    </a>
+
+                    <a href="">
+                        <button class="icon-btn facebook">
+                            <i class="fa fa-facebook"></i>
+                        </button>
+                    </a>
+
+                    <a href="">
+                        <button class="icon-btn google-plus ">
+                            <i class="fa fa-google-plus"></i>
+                        </button>
+                    </a>
+
+                    <a href="">
+                        <button class="icon-btn instagram">
+                            <i class="fa fa-instagram"></i>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+
+    </script>
+</body>

@@ -1,0 +1,366 @@
+a {
+    color: #fff;
+}
+
+
+/*---Jumbotron---*/
+
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/venice-2667230_1280.jpg);
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header-jumbotron {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.jumbotron p {
+    margin-bottom: 35px;
+}
+
+.main-btn {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 9999px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #ff0000;
+    color: #fff;
+    outline: none;
+}
+
+
+/*---Featured Tours---*/
+
+.top-offers {
+    margin-bottom: 60px;
+}
+
+
+/*Featured Tours header*/
+
+.text-header {
+    font-size: 5.5rem;
+    margin: 100px 0 30px 0;
+    color: #424244;
+    font-weight: 600;
+}
+
+
+/*--Featured Tours text slogan--*/
+
+.text-bottom {
+    color: #A4A4A4;
+    font-size: 1.8rem;
+}
+
+
+/*--Featured Tours offers--*/
+
+.offers {
+    margin-top: 50px;
+}
+
+
+/*--Featured Tours offers box--*/
+
+.span {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 5%;
+    padding: 2px 14px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.span-sale {
+    background-color: dodgerblue;
+}
+
+.span-new {
+    background-color: #FE6A6A;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-img:hover {
+    opacity: 0.7;
+}
+
+
+/*--Featured Tours offers icins stars--*/
+
+.icon {
+    color: #FE6A6A;
+    margin-top: 40px;
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+.header-bottom-offers {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.header-bottom-offers:hover {
+    color: #FE6A6A;
+    cursor: pointer;
+}
+
+
+/*---Featured Tours offers text price---*/
+
+.small {
+    font-size: 1.5rem;
+    color: slategray;
+}
+
+.text-darker {
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+
+
+/*---We Provide Only the Best Tours---*/
+
+.slogan {
+    background-image: url(img/nature-2609430_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --- We Provide Only the Best Tours header---*/
+
+.text-header-slogan {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+
+/*---We Provide Only the Best Tours header text---*/
+
+.slogan-text {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.btnn {
+    padding: 10px 35px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-rounded {
+    border-radius: 1000px;
+}
+
+.btn-border-white {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .3s;
+}
+
+.btn-border-white:hover,
+.btn-border-white:focus {
+    text-decoration: none;
+}
+
+
+/*--Why Us?--*/
+
+.service {
+    margin: 100px 0;
+}
+
+
+/*--Why Us? header--*/
+
+.text-header-service {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #424244;
+    margin: 50px 30%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ff0000;
+}
+
+
+/*--Why Us? box--*/
+
+.text-service {
+    margin-bottom: 15px;
+}
+
+
+/*--Why Us? box icons--*/
+
+.span-service {
+    color: #fff;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, #FF0000 0%, #FFFF00 100%);
+    padding: 35px;
+    margin-bottom: 30px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+/*Partners*/
+
+.partners {
+    background-color: #F4F4F4;
+    padding-bottom: 40px;
+}
+
+.text-header-partners {
+    font-size: 4rem;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+.partners-img {
+    width: 200px;
+    height: 150px;
+}
+
+
+/*---What Our Clients Say---*/
+
+.header-text-clients {
+    padding: 50px 0;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.text-clients {
+    margin-top: 15px;
+    font-size: 1.7rem;
+    color: #676769;
+}
+
+.img-user {
+    margin-top: 20px;
+}
+
+.clients-name {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.offset-bootom {
+    padding: 40px 0 70px 0;
+}
+
+
+/* ---Explore the Distant Corners of the World---*/
+
+.slogan-bootom {
+    background-image: url(img/slovakia-958482_1280.jpg);
+    height: 470px;
+}
+
+.header-text-slogan-bootom {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #000;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+footer p {
+    margin: 20px;
+    color: gray;
+}
+
+.footer-link {
+    color: gray;
+    margin: 20px;
+    display: block;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon-btn {
+    color: #fff;
+    margin: 10px;
+    height: 55px;
+    width: 55px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #212121;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.icon-btn:hover {
+    transform: scale(1.10);
+    outline: none;
+}
+
+.twitter:hover {
+    color: #fff;
+    background-color: #4099FF;
+}
+
+.facebook:hover {
+    color: #fff;
+    background-color: #3B5998;
+}
+
+.google-plus:hover {
+    color: #fff;
+    background-color: #DB5A3C;
+}
+
+.instagram:hover {
+    color: #fff;
+    background-color: #5C3D2E;
+}
+
+.github:hover {
+    color: #fff;
+    background-color: #4183C4;
+}
